@@ -45,7 +45,7 @@ module Omniauth
       #
       # See: https://github.com/intridea/omniauth-oauth2/issues/81
       def callback_url
-        callback_path = "https://toustaging.com/auth/sdge/callback"
+        callback_path = "https://tou.solutions/auth/sdge/callback"
         # full_host + script_name + callback_path
         # full_host+ script_name "auth/sdge/callback"
       end
